@@ -13,11 +13,13 @@
           Download CV</a
         >
       </button>
-      <button
+
+      <router-link
+        to="/contacts"
         class="rounded bg-slate-600 p-3 text-white font-bold hover:bg-white/50 hover:text-slate-600"
+        >Hire Me</router-link
       >
-        Hire Me
-      </button>
+
       <div class="flex mt-5">
         <a
           href="https://www.facebook.com/profile.php?id=100070767246388"

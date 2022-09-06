@@ -1,11 +1,13 @@
 <template>
-  <div class="work absolute top-20 w-full mt-12">
+  <div class="work absolute top-20 w-full mt-2">
     <div class="pl-10 w-full absolute pr-10">
+      <h3 class="text-center text-lg">MY WORK</h3>
+      <h2 class="text-center text-2xl font-bold mb-3">WHAT I'VE DONE?</h2>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <h3 class="text-xl font-bold mb-2">Gee Collections</h3>
-            <div class="flex flex-row shadow-2xl shadow-slate-800">
+            <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
               <div class="basis-1/2 shadow-2xl shadow-slate-800">
                 <img
                   src="@/assets/gee-collections.png"
@@ -33,7 +35,7 @@
           </div>
           <div class="swiper-slide">
             <h3 class="text-xl font-bold mb-2">Ezen Events</h3>
-            <div class="flex flex-row shadow-2xl shadow-slate-800">
+            <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
               <div class="basis-1/2 pl-2 pt-10 shadow-2xl shadow-slate-800">
                 <p class="text-lg text-black/75 font-semibold mb-4">
                   Ezen Events is an events management system that has been intergrated
@@ -58,20 +60,59 @@
               </div>
             </div>
           </div>
-          <!-- <div class="swiper-slide">
-            <img
-              src="@/assets/blog.png"
-              alt="Slider Image"
-              style="width: 500px; height: 400px"
-            />
+          <div class="swiper-slide">
+            <h3 class="text-xl font-bold mb-2">MyBlog</h3>
+            <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
+              <div class="basis-1/2 shadow-2xl shadow-slate-800">
+                <img
+                  src="@/assets/blog.png"
+                  alt="Slider Image"
+                  style="width: 800px; height: 400px"
+                />
+              </div>
+              <div class="basis-1/2 pl-2 pt-10 shadow-2xl shadow-slate-800">
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  MyBlog is a blog website that contains information on how to work with
+                  several VueJS and Django packages. Upcoming developers can access
+                  instructions on how to install and use the various dependancies.
+                </p>
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  The blog outlines the various steps needed to install, setup and run the
+                  packages. It also has blocks of code that the user can copy and paste
+                  into their code editor.
+                </p>
+                <p class="text-lg text-black/75 font-semibold">
+                  The system was built using HTML,Tailwind CSS, VueJS and Django.
+                </p>
+              </div>
+            </div>
           </div>
           <div class="swiper-slide">
-            <img
-              src="@/assets/music-player.png"
-              alt="Slider Image"
-              style="width: 500px; height: 400px"
-            />
-          </div> -->
+            <h3 class="text-xl font-bold mb-2">Music Player</h3>
+            <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
+              <div class="basis-1/2 pl-2 pt-10 shadow-2xl shadow-slate-800">
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  Music Player is a simple application that allows a user to create a
+                  playlist of songs either from their local machine or from their Spotify
+                  accounts.
+                </p>
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  The application has controls such as play, pause, next, previous and
+                  mute.
+                </p>
+                <p class="text-lg text-black/75 font-semibold">
+                  The system was built using HTML, Tailwind CSS, VueJS.
+                </p>
+              </div>
+              <div class="basis-1/2 shadow-2xl shadow-slate-800">
+                <img
+                  src="@/assets/music-player.png"
+                  alt="Slider Image"
+                  style="width: 800px; height: 400px"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

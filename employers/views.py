@@ -37,6 +37,10 @@ def feedback(request):
         sms.send(f'You have a message from a potential employer by the name of {name}',[f'{phone_number}'],callback=feedback)
         return Response(serializer.data)
 
+class EmployerList(generics.ListAPIView):
+    queryset = PotentialEmployer.objects.all()
+    serializer_class = PotentialEmployerSerializer
+
 class EmployerDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = PotentialEmployer.objects.all()
     serializer_class = PotentialEmployerSerializer

@@ -1,33 +1,36 @@
 <template>
-  <div class="work absolute top-20 w-full mt-12">
+  <div class="work absolute top-20 w-full mt-6">
     <div class="pl-10 w-full absolute pr-10">
+      <h3 class="text-center text-lg">TESTIMONIALS</h3>
+      <h2 class="text-center text-2xl font-bold mb-4">WHAT THEY SAY?</h2>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div
-              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10"
+              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10 backdrop-blur-md"
             >
               <div class="text-center m-auto w-1/2 pl-16">
                 <img
-                  src="@/assets/sammyb-review.jpg"
+                  src="@/assets/freddy-review.jpeg"
                   alt="Image"
                   class="rounded-full object-cover"
                   style="width: 150px; height: 150px"
                 />
               </div>
               <div class="review-text mt-4 text-center">
-                <h2 class="text-xl font-bold">SammyB</h2>
-                <h3 class="text-lg">Software engineer</h3>
+                <h2 class="text-xl font-bold">Sir Fred</h2>
+                <h3 class="text-lg">County Commissioner</h3>
                 <p class="mt-4 italic">
-                  " Samuel is a great co-worker and a go getter. He works well under
-                  pressure and always seeks to achieve his targets "
+                  " Samuel is an industrious young man with a high level of integrity. He
+                  is very good when it comes to time management and always gives his level
+                  best "
                 </p>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div
-              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10"
+              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10 backdrop-blur-md"
             >
               <div class="text-center m-auto w-1/2 pl-16">
                 <img
@@ -49,7 +52,7 @@
           </div>
           <div class="swiper-slide">
             <div
-              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10"
+              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10 backdrop-blur-md"
             >
               <div class="text-center m-auto w-1/2 pl-16">
                 <img
@@ -65,6 +68,28 @@
                 <p class="mt-4 italic">
                   " Samuel is a great employee and problem solver. He is quick to extend
                   his helping hand and makes a good team player "
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="rounded border border-slate-500 shadow-2xl shadow-black m-auto w-1/2 p-10 backdrop-blur-md"
+            >
+              <div class="text-center m-auto w-1/2 pl-16">
+                <img
+                  src="@/assets/sammyb-review.jpg"
+                  alt="Image"
+                  class="rounded-full object-cover"
+                  style="width: 150px; height: 150px"
+                />
+              </div>
+              <div class="review-text mt-4 text-center">
+                <h2 class="text-xl font-bold">SammyB</h2>
+                <h3 class="text-lg">Software Engineer</h3>
+                <p class="mt-4 italic">
+                  " Samuel is a great co-worker and a go getter. He works well under
+                  pressure and always seeks to achieve his targets "
                 </p>
               </div>
             </div>
