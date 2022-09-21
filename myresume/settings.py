@@ -15,7 +15,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY_RESUME',default="#0$q5drfr)ak6v9h%3*0o3d
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
+# DEBUG = 'RENDER' not in os.environ
+DEBUG = False
 
 # ALLOWED_HOSTS = [ 'localhost','127.0.0.1']
 ALLOWED_HOSTS = ['localhost']
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'myresume.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'dist')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,6 +125,7 @@ USE_TZ = True
 
 # STATIC_URL = '/static/'
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'dist/static'),]
 
 if not DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
