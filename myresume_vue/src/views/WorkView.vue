@@ -34,8 +34,41 @@
             </div>
           </div>
           <div class="swiper-slide">
+            <h3 class="text-xl font-bold mb-2">Milestones Consultancy</h3>
+            <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
+              <div class="basis-1/2 pl-2 pt-10 shadow-2xl shadow-slate-800">
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  Milestones Consultancy is a website that was developed for a consultancy
+                  firm in order for their potential clients to get to know more about the
+                  company, their pricing and much more.
+                </p>
+                <p class="text-lg text-black/75 font-semibold mb-4">
+                  Clients can also get to contact the firm by leaving a message in the
+                  contact section.
+                </p>
+                <p class="text-lg text-black/75 font-semibold">
+                  The system was built using HTML, Tailwind CSS, VuesJS and PHP.
+                </p>
+              </div>
+              <div class="basis-1/2 shadow-2xl shadow-slate-800">
+                <img
+                  src="@/assets/milestones.png"
+                  alt="Slider Image"
+                  style="width: 800px; height: 400px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
             <h3 class="text-xl font-bold mb-2">Ezen Events</h3>
             <div class="flex flex-row shadow-2xl shadow-slate-800 backdrop-blur-md">
+              <div class="basis-1/2 shadow-2xl shadow-slate-800">
+                <img
+                  src="@/assets/ezenevents.png"
+                  alt="Slider Image"
+                  style="width: 800px; height: 400px"
+                />
+              </div>
               <div class="basis-1/2 pl-2 pt-10 shadow-2xl shadow-slate-800">
                 <p class="text-lg text-black/75 font-semibold mb-4">
                   Ezen Events is an events management system that has been intergrated
@@ -50,13 +83,6 @@
                 <p class="text-lg text-black/75 font-semibold">
                   The system was built using HTML, CSS, NuxtJS and Django.
                 </p>
-              </div>
-              <div class="basis-1/2 shadow-2xl shadow-slate-800">
-                <img
-                  src="@/assets/ezenevents.png"
-                  alt="Slider Image"
-                  style="width: 800px; height: 400px"
-                />
               </div>
             </div>
           </div>
